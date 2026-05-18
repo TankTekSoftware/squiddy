@@ -1,1 +1,1 @@
-# squiddy
+# Squiddy
