@@ -2,7 +2,7 @@ package utils
 
 import "fmt"
 
-func JoinArgs(args[] string) string {
+func JoinArgs(args []string) string {
 	result := ""
 	for i, a := range args {
 		if i > 0 {
@@ -27,6 +27,8 @@ Your shell command assistant 🦑
 
 USAGE:
   squiddy ask <question>
+  squiddy provider <provider_name>
+  squiddy api_key <api_key>
   squiddy version
   squiddy help
 
